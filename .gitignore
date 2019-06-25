@@ -1,0 +1,3 @@
+venv/
+iplookup/__pycache__/
+instance/.geoipupdate.lock

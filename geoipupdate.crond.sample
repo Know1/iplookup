@@ -1,0 +1,4 @@
+# Sample cron file to update Maxmind GeoIP2 DB files regularly
+45 12 * * 3 root /usr/bin/geoipupdate -d /opt/geoip2/instance
+
+

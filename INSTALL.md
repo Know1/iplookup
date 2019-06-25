@@ -18,10 +18,10 @@ You should now be able to connect to http://localhost:5001
 
 Optional setup:
 1. Set IPLookup to run as a service
-  cp /opt/geoip2/geoip2.service.sample /etc/systemd/system/geoip2.service
+  cp /opt/geoip2/iplookup.service.sample /etc/systemd/system/geoip2.service
   systemctl daemon-reload
-  systemctl enable geoip2.service
-  systemctl start geoip2.service
+  systemctl enable iplookup.service
+  systemctl start iplookup.service
 
 2. Configure Apache2 as a reverse proxy to the service
   cp /opt/geoip2/iplookup.conf.sample /etc/apache2/sites-available/iplookup.conf

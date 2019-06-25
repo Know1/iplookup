@@ -1,5 +1,5 @@
 [Unit]
-Description = Gunicorn instance to serve GeoIP2 Lookup
+Description = Gunicorn instance to serve GeoIP2 IPlookup API Service
 After = network.target
 
 [Service]
